@@ -1,0 +1,150 @@
+/* colores */
+:root{
+    --verdeOscuro: rgb(95, 113, 97);
+    --verdeOscuro_1: rgb(40, 51, 42);
+    --verdeSuave: rgb(193, 209, 197);
+    --colorClaro: rgb(239, 234, 216);
+    --colorGris: rgb(208, 201, 192);
+}
+/* ESTILO GENERAL */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.info{
+    padding-top: 30px;
+    color: var(--verdeOscuro_1);
+}
+
+
+.opcionesDonar{
+    display: flex;
+    flex-direction: column;
+}
+
+.opcionesDonar p, .opcionesPago p{
+    text-align: center;
+    font-size: 15px ;
+}
+
+.montos a{
+    text-decoration: none;
+    color: var(--verdeOscuro_1);
+
+}
+.montos a i{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.montos .valor{
+    padding: 0;
+}
+
+.valor a{
+    border: 1px solid var(--verdeOscuro_1);
+    padding: 7px;
+    border-radius: 80%;
+    margin-bottom: 15px ;
+    background-color: var(--verdeSuave);
+    text-decoration: none;
+}
+.valor a:hover{
+    color: var(--verdeOscuro);
+}
+
+#mas{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding-left: 6px;
+    text-align: center;
+    font-size: 5px;
+    font-weight: bold;
+    background-color:rgb(193, 209, 197);
+    border: 2px dotted var(--verdeOscuro);
+    border-radius: 90%;
+    margin-bottom: 15px ;
+}
+
+#mas i{
+    font-size: 20px;
+}
+
+/* opciones de pago */
+
+.opcionesPago{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.opcionesPago hr{
+   margin: 0; 
+}
+.opcionesPago .row{
+    margin: 0;
+}
+.opcion_pago{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(166, 219, 179, 0.218);
+    border-left: 3px dotted var(--verdeOscuro);
+    border-right: 3px dotted var(--verdeOscuro);
+}
+
+.opcionesPago div i{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.estilosTitulo b{
+    border-bottom: 2px solid var(--verdeOscuro) ;
+    box-shadow: 0.1px 1px 0px 0px var(--verdeOscuro);
+}
+
+/* PUNTOS DE RUPTURA */
+
+/*---------     Modo Tablet */
+@media (min-width: 768px) {
+    .info p{
+        font-size: 20px;
+    }
+
+    .opcionesPago{
+        width: 50vw;
+        justify-content: center;
+    }
+
+    .opcionesDonar p, .opcionesPago p{
+        font-size: 18px;
+    }
+    
+    .opcion_pago{
+        border-left: 4px dotted var(--verdeOscuro);
+        border-right: 4px dotted var(--verdeOscuro);
+    }
+
+    #texto_informativo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        background-color:rgba(166, 219, 179, 0.218);
+        border: 1px dotted var(--verdeOscuro);
+        padding: 30px;
+      }
+
+      
+}
+
+/* ----------   Modo PC */
+@media (min-width: 992px) {
+
+}

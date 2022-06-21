@@ -1,0 +1,201 @@
+/* colores */
+:root{
+    --verdeOscuro: rgb(95, 113, 97);
+    --verdeOscuro_1: rgb(40, 51, 42);
+    --verdeSuave: rgb(193, 209, 197);
+    --colorClaro: rgb(239, 234, 216);
+    --colorGris: rgb(208, 201, 192);
+}
+/* ESTILO GENERAL */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+/* ESTILOS A LA PÁGINA ---ADOPCION--- */
+a{
+  text-decoration: none;
+}
+#section_adoption{
+    
+    padding-bottom: 50px;
+}
+
+
+/* TITULO ANTES DE CARD */
+.header-card {
+    color: var(--verdeOscuro_1);
+  }
+  .header-card .titulo {
+    font-size: 13px;
+  }
+  
+  .header-card .subtitulo {
+    font-size: 10px;
+  }
+  
+  /* STILE CARD */
+  .card {
+    height: 170px;
+  }
+  
+  .perritos .card {
+    max-width: 200px;
+    max-height: 200px;
+    color: var(--colorClaro);
+  }
+  
+  .card .descripcion_card {
+    opacity: 0;
+    transition: opacity 250ms 500ms;
+    font-size: 10px;
+    text-align: center;
+    color: var(--verdeOscuro_1);
+  }
+  
+  .card:hover .descripcion_card {
+    opacity: 1;
+    background-color: rgba(193, 209, 197, 0.3);
+  }
+  
+  .card:hover article {
+    background-color: rgba(193, 209, 197, 0.448);
+    border-radius: 15%;
+    border: 2px solid var(--verdeSuave);
+    padding: 2px;
+  }
+  
+  .card .tarjetaPerrito {
+    margin-bottom: 5px;
+  }
+  .card:hover .tarjetaPerrito {
+    cursor: pointer;
+  }
+  
+  .card article {
+    transition: opacity 250ms 500ms;
+  }
+  
+  .descripcion_card button {
+    background-color: var(--verdeSuave);
+    color: var(--verdeOscuro_1);
+    border: 0.7px solid var(--verdeOscuro);
+    padding: 0 4px;
+    font-size: 10px;
+  }
+  
+  .card-img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card .card-text {
+    margin: 10px;
+  }
+  
+  /* Modal con informacion del perrito */
+  
+  .modal-body img {
+    width: 200px;
+  }
+  .card-modales {
+    z-index: 1;
+    color: var(--verdeOscuro);
+  }
+  
+  .modal-body img {
+    border: 3px solid var(--verdeSuave);
+    margin-right: 0.5px;
+  }
+  .modal-body li {
+    color: var(--verdeOscuro);
+  }
+  .modal-body li:hover {
+    background-color: var(--verdeSuave);
+    border: 0.7px solid var(--verdeOscuro);
+    cursor: pointer;
+  }
+  
+  .modal-footer button {
+    background-color: var(--verdeSuave);
+  }
+  .modal-footer button:hover {
+    border: 0.7px solid var(--verdeOscuro);
+  }
+  
+  /* EFECTOS A LAS CARD */
+.sombraYMovimiento {
+    position: relative;
+    top: 9px;
+    left: 5px;
+    transition: 500ms;
+    box-shadow: 0px 0px 5px 0px var(--verdeOscuro);
+}
+.sombraYMovimiento:hover {
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 5px 0px var(--verdeOscuro);
+}
+  
+
+
+
+
+
+/* ---------------------------------------Breakpoints--------------------------------- */
+
+/* MODO TABLET +  */
+@media (min-width: 768px) {
+  
+    /* Titulo antes de las card de perritos */
+    .header-card .titulo {
+      font-size: 20px;
+    }
+  
+    .header-card .subtitulo {
+      font-size: 15px;
+    }
+    .nav-item a b {
+      font-size: 15px;
+    }  
+    .perritos .card {
+        max-width: 180px;
+        max-height: 180px;
+    }
+}
+
+/* MODO PC ----------------------------- */
+
+@media (min-width: 992px) {
+
+    /* Titulo antes de las card de perritos */
+  
+    .header-card .subtitulo {
+      font-size: 15px;
+    }
+    .nav-item a b {
+      font-size: 20px;
+    }
+  
+  
+  }
+
+/* MODO PC- pantalla grande >= 1400px */
+
+@media (min-width: 1400px) {
+    .header-card .titulo {
+        font-size: 22px;
+      }
+    .header-card .subtitulo {
+        font-size: 17px;
+      }
+      .nav-item a b {
+        font-size: 20px;
+      }
+    
+}
+  

@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundacion Rolling|Adopcion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="adopcionstyle.css">
+    <link rel="stylesheet" href="./footerStyle.css">
+    <link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-  1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    
+    <script src="https://kit.fontawesome.com/737440fb0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="container_gral">
+      <header>
+        <nav id="navigation" class="d-flex navbar-expand-md ">
+          <div class="container-fluid">
+            <!-- BOTON COLAPSABLE en modo sm -->
+            <div class="d-flex justify-content-end">
+              <button id="btn_navBar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <!-- CONTENEDOR DE LOGO Y OPCIONES -->
+            <div class="d-flex">
+            <!-- LOGO -se visualiza en modo tabled + -->
+              <div class="d-none d-md-inline-block">
+                <a href="#"><img src="https://trello.com/1/cards/629d29d4ced6d101c963b634/attachments/629d2a2049929f3ff38b6180/previews/629d2a2149929f3ff38b6188/download/fundacion_%282%29.png"
+                  alt="logo"
+                  width="100"
+                  height="100"
+                /></a>
+              </div>
+              <!-- LISTADO DE OPCIONES -->
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav m-0">
+                  <li class="nav-item_header">
+                    <a class="nav-link"  href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item_header">
+                    <a id="active" class="nav-link" href="adopcion.html">Adopción</a>
+                  </li>
+                  <li class="nav-item_header">
+                    <a class="nav-link" href="donar.html">Donar</a>
+                  </li>
+                  <li class="nav-item_header">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+        </nav>
+      </header>
+        <main>
+          <section
+            class="d-flex flex-column align-items-center"
+            id="section_adoption"
+          >
+            <!-- TITULO -->
+            <div class="row">
+              <div class="col-sm header-card">
+                <p class="titulo text-center mt-4 mx-1">
+                  <b>¿Estás buscando al amor de tu vida?</b>
+                </p>
+                <p class="subtitulo text-center">Encontralo Aquí...</p>
+              </div>
+            </div>
+            <!--ROW CON CARD DE PERRITOS -->
+            <div
+              class="row gap-3 perritos d-flex flex-wrap justify-content-center"
+            >
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 "
+                id="sarita"
+              >
+                <img
+                  src="https://i.postimg.cc/kGkHg3Dy/6.webp"
+                  class="card-img"
+                  alt="Perra-Sarita"
+                />
+                <div class="card-img-overlay descripcion_card">
+                    <article>
+                      <h5 class="card-title"><b>Sarita</b></h5>
+                      <p class="card-text">
+                        <b>Tiene 7 años, super tranquila y llena de amor para dar!</b>
+                      </p>
+                      <button class="btn d-md-none">Iniciar adopción</button>
+                      <div
+                    class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                    <svg
+                      data-bs-toggle="modal"
+                      data-bs-target="#CardSarita"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-clipboard2-heart-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                      />
+                    </svg>
+                      </div>
+                    </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardSarita">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Sarita</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/kGkHg3Dy/6.webp"
+                            class="card-img"
+                            alt="Sarita"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrita rescatada de la calle, es super tranquila,
+                            ama las caricias y jugar con la pelota!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">
+                              Edad: 7 aprox
+                            </li>
+                            <li class="list-group-item me-1">
+                              Vacunada<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitada<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      
+                      <div class="modal-footer">
+                        
+                        <button
+                          onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        
+                        </button>
+                      
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/KvMVszsp/7.webp"
+                  class="card-img"
+                  alt="Perro-Pancho"
+                />
+                <div class="card-img-overlay descripcion_card">
+                  <article>
+                    <h5 class="card-title"><b>Pancho</b></h5>
+                    <p class="card-text">
+                      <b>Tiene 3 años, se porta muy bien y es guardian!</b>
+                    </p>
+                    <button class="btn d-md-none">Iniciar adopción</button>
+                    <div
+                      class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                      <svg
+                        data-bs-toggle="modal"
+                        data-bs-target="#CardPancho"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="bi bi-clipboard2-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                        />
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardPancho">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Pancho</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/KvMVszsp/7.webp"
+                            class="card-img"
+                            alt="Pancho"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrito super tranquilo, ama las
+                            caricias y jugar con la pelota!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 3</li>
+                            <li class="list-group-item me-1">
+                              Vacunado<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitado<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/W1cKRvBN/1.webp"
+                  class="card-img"
+                  alt="Perro-Agosto"
+                />
+                <div class="card-img-overlay descripcion_card">
+                  <article>
+                    <h5 class=" card-title"><b>Agosto</b></h5>
+                    <p class=" card-text">
+                      <b>Tiene 3 años, es super cariñoso y le encanta jugar con la
+                        pelota!</b>
+                    </p>
+                    <button class="btn d-md-none">Iniciar adopción</button>
+                    <div
+                      class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                      <svg
+                        data-bs-toggle="modal"
+                        data-bs-target="#CardAgosto"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="bi bi-clipboard2-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                        />
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="CardAgosto">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Agosto</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/W1cKRvBN/1.webp"
+                            class="card-img"
+                            alt="Sarita"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrito rescatado de la calle, le gusta jugar con la
+                            pelota y ama las caricias!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 3 aprox</li>
+                            <li class="list-group-item me-1">
+                              Vacunado<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitado<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/cJX588rC/5.webp"
+                  class="card-img"
+                  alt="Perro-Ricky"
+                />
+                <div class="card-img-overlay descripcion_card">
+                  <article>
+                    <h5 class="card-title"><b>Ricky</b></h5>
+                    <p class="card-text">
+                      <b>Tiene 1 año, super guardian y jugueton!</b>
+                    </p>
+                    <button class="btn d-md-none">Iniciar adopción</button>
+                    <div
+                      class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                      <svg
+                        data-bs-toggle="modal"
+                        data-bs-target="#CardRicky"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="bi bi-clipboard2-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                        />
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardRicky">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Ricky</h4>
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/cJX588rC/5.webp"
+                            class="card-img"
+                            alt="Ricky"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrito super tranquilo, ama las
+                            caricias, es guardian y jugueton.
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 1</li>
+                            <li class="list-group-item me-1">
+                              Vacunado<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitado<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/VNR2BVHY/4.webp"
+                  class="card-img"
+                  alt="Perra-Greta"
+                />
+                <div class="card-img-overlay descripcion_card">
+                  <article>
+                    <h5 class="card-title"><b>Greta</b></h5>
+                    <p class="card-text">
+                      <b>Tiene 2 años, super tranquila y llena de amor para darte!</b>
+                    </p>
+                    <button class="btn d-md-none">Iniciar adopción</button>
+                    <div
+                      class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                      <svg
+                        data-bs-toggle="modal"
+                        data-bs-target="#CardGreta"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="bi bi-clipboard2-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                        />
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardGreta">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Greta</h4>
+                        <button
+                        
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/VNR2BVHY/4.webp"
+                            class="card-img"
+                            alt="Greta"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrita super tranquila, ama las
+                            caricias, es guardiana y le gusta el pan!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 2</li>
+                            <li class="list-group-item me-1">
+                              Vacunada<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitada<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/YCNPMP71/2.webp"
+                  class="card-img"
+                  alt="Perro-Karin"
+                />
+                <div class="card-img-overlay descripcion_card">
+                  <article>
+                    <h5 class="card-title"><b>Karin</b></h5>
+                    <p class="card-text">
+                      <b>Tiene 1 año, guardian, jugueton y simpatico!</b>
+                    </p>
+                    <button class="btn d-md-none">Iniciar adopción</button>
+                    <div
+                      class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                      <svg
+                        data-bs-toggle="modal"
+                        data-bs-target="#CardKarin"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="bi bi-clipboard2-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                        />
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardKarin">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Karin</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/YCNPMP71/2.webp"
+                            class="card-img"
+                            alt="Karin"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrito super tranquilo, ama las
+                            caricias, es guardian y le gusta jugar con la
+                            pelota!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 1</li>
+                            <li class="list-group-item me-1">
+                              Vacunado<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitado<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/HWqHLFqK/14.webp"
+                  class="card-img"
+                  alt="Perra-Luna"
+                />
+                <div class="card-img-overlay descripcion_card">
+                    <article>
+                      <h5 class="card-title"><b>Luna</b></h5>
+                      <p class="card-text">
+                        <b>Tiene 4 años, super tranquila, guardiana y cariñosa!</b>
+                      </p>
+                      <button class="btn d-md-none">Iniciar adopción</button>
+                      <div
+                        class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                      >
+                        <svg
+                          data-bs-toggle="modal"
+                          data-bs-target="#CardLuna"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-clipboard2-heart-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                          />
+                        </svg>
+                      </div>
+                    </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardLuna">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Luna</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/HWqHLFqK/14.webp"
+                            class="card-img"
+                            alt="Luna"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrita super tranquila, ama las
+                            caricias, es cariñosa y guardiana!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 4</li>
+                            <li class="list-group-item me-1">
+                              Vacunada<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitada<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/sfQss3N7/12.webp"
+                  class="card-img"
+                  alt="Perro-Maxuel"
+                />
+                <div class="card-img-overlay descripcion_card">
+                    <article>
+                      <h5 class=" card-title"><b>Maxuel</b></h5>
+                      <p class=" card-text">
+                        <b>Tiene 3 años,es muy guardian y simpatico!</b>
+                      </p>
+                      <button class="btn d-md-none">Iniciar adopción</button>
+                      <div
+                        class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                      >
+                        <svg
+                          data-bs-toggle="modal"
+                          data-bs-target="#CardMaxuel"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-clipboard2-heart-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                          />
+                        </svg>
+                      </div>
+                    </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardMaxuel">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Maxuel</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/sfQss3N7/12.webp"
+                            class="card-img"
+                            alt="Maxuel"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrito muy guardian, simpatico y le
+                            gusta correr mucho!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 3</li>
+                            <li class="list-group-item me-1">
+                              Vacunado<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitado<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/Pfc94ZK8/9.webp"
+                  class="card-img"
+                  alt="Perra-Blanquita"
+                />
+                <div class="card-img-overlay descripcion_card">
+                  <article>
+                    <h5 class=" card-title"><b>Blanquita</b></h5>
+                    <p class=" card-text">
+                      <b>Tiene 5 años,es super simpatica y amorosa!</b>
+                    </p>
+                    <button class="btn d-md-none">Iniciar adopción</button>
+                    <div
+                      class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                    >
+                      <svg
+                        data-bs-toggle="modal"
+                        data-bs-target="#CardBlanquita"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="bi bi-clipboard2-heart-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                        />
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardBlanquita">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Blanquita</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/Pfc94ZK8/9.webp"
+                            class="card-img"
+                            alt="Blanquita"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrita muy simpatica, le gusta las
+                            caricias y jugar con la pelota!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 5</li>
+                            <li class="list-group-item me-1">
+                              Vacunada<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitada<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/3NDL6S90/11.webp"
+                  class="card-img"
+                  alt="Perra-Sol"
+                />
+                <div class="card-img-overlay descripcion_card">
+                    <article>
+                      <h5 class=" card-title"><b>Sol</b></h5>
+                      <p class=" card-text">
+                        <b>Tiene 3 años, fue rescatada de la calle y está esperando a
+                          alguien que lo cuide y ame!</b>
+                      </p>
+                      <button class="btn d-md-none">Iniciar adopción</button>
+                      <div
+                        class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                      >
+                        <svg
+                          data-bs-toggle="modal"
+                          data-bs-target="#CardSol"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-clipboard2-heart-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                          />
+                        </svg>
+                      </div>
+                    </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardSol">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Sol</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/3NDL6S90/11.webp"
+                            class="card-img"
+                            alt="Sol"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrita rescatada de la calle, es muy simpatica, le gusta las
+                            caricias y jugar con la pelota!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 5 aprox</li>
+                            <li class="list-group-item me-1">
+                              Vacunada<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitada<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/9MgSsqhK/3.webp"
+                  class="card-img"
+                  alt="Perra-Laia"
+                />
+                <div class="card-img-overlay descripcion_card">
+                    <article>
+                      <h5 class=" card-title"><b>Laia</b></h5>
+                      <p class=" card-text">
+                        <b>Tiene 1 año, le gusta atrapar la pelota y que la corran!</b>
+                      </p>
+                      <button class="btn d-md-none">Iniciar adopción</button>
+                      <div
+                        class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                      >
+                        <svg
+                          data-bs-toggle="modal"
+                          data-bs-target="#CardLaia"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-clipboard2-heart-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                          />
+                        </svg>
+                      </div>
+                    </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardLaia">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Laia</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/9MgSsqhK/3.webp"
+                            class="card-img"
+                            alt="Laia"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrita muy guardiana, le gusta las
+                            caricias y jugar con la pelota!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 1</li>
+                            <li class="list-group-item me-1">
+                              Vacunada<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitada<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card sombraYMovimiento col-12 col-md-6 col-lg-3 col-xxl-3 p-0 text-white"
+              >
+                <img
+                  src="https://i.postimg.cc/V63ydbVM/20.webp"
+                  class="card-img"
+                  alt="Card-Yamal"
+                />
+                <div class="card-img-overlay descripcion_card">
+                    <article>
+                      <h5 class=" card-title"><b>Yamal</b></h5>
+                      <p class=" card-text">
+                        <b>Tiene 2 años,fue rescatado de la calle y está esperando a
+                          alguien que lo cuide y ame!</b>
+                      </p>
+                      <button class="btn d-md-none">Iniciar adopción</button>
+                      <div
+                        class="d-none d-md-block tarjetaPerrito d-flex justify-content-center"
+                      >
+                        <svg
+                          data-bs-toggle="modal"
+                          data-bs-target="#CardYamal"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-clipboard2-heart-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10.058.501a.501.501 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.499.499 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.499.499 0 0 1-.497-.499Z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642c.055.156.085.325.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5c0-.175.03-.344.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018Z"
+                          />
+                        </svg>
+                      </div>
+                    </article>
+                </div>
+                <!-- MODAL -->
+                <div class="modal" id="CardYamal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="card-modales">Yamal</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body d-flex justify-content-start">
+                        <div>
+                          <img
+                            src="https://i.postimg.cc/V63ydbVM/20.webp"
+                            class="card-img"
+                            alt="Yamal"
+                          />
+                        </div>
+                        <div class="text-center">
+                          <p class="card-modales">
+                            Perrito rescatado de
+                            la calle. Es super guardian y amiguero, le gusta
+                            salir a pasear y comer pan!
+                          </p>
+                          <ul class="list-group card-modales text-center">
+                            <li class="list-group-item me-1">Edad: 2 aprox</li>
+                            <li class="list-group-item me-1">
+                              Vacunado<i class="bi bi-check"></i>
+                            </li>
+                            <li class="list-group-item me-1">
+                              Desparasitado<i class="bi bi-check"></i>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                        onclick="location.href='error.html'"
+                          type="button"
+                          class="btn w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Iniciar Adopción
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+    </div>
+    <footer id="container_gral">
+      <!-- <div class="row">
+        <div id="footer-inicio" class="col pt-2">
+          <p title="Fundación Rolling" class="text-center"><b>Fundación Rolling</b></p>
+        </div>
+      </div> -->
+      <div class="row pt-2" id="footer-final">
+        <div class="col d-flex flex-column">
+          <p class="redesTitulo align-self-center" ><b>¡Seguinos en redes!</b></p>
+          <ul>
+            <li ><a href="error.html" title="Facebook"><i class="icon bi bi-facebook"></i></a></li>
+            <li ><a href="error.html" title="Instagram"><i class="icon bi bi-instagram"></i></a></li>
+            <li ><a href="error.html" title="Twitter"><i class="icon bi bi-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr/>
+      <div class="pie d-flex justify-content-center align-items-center pb-1">
+        <a href="adopcion.html"><b>Ayudános a buscarle un hogar</b></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    >
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous">
+    </script>
+</body>
+</html>
