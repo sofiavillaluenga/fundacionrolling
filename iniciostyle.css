@@ -191,7 +191,7 @@
 .dona2:hover{
     width: 100px;
     height: 100px;
-    border-radius: 55px;
+    border-radius: 50px;
 }  
 @media(max-width: 1100px){
     #section_encabezado{
@@ -288,13 +288,8 @@
         padding-right:30px;
         height:400px;
     }
-    #control_carrousel a{
-        font-size: 1rem;
-    }
-    #container_carrousel{
-        
-        height: 260px;
-        width: 250px;
+    #control_carrousel{
+        display:none;
     }
   
     #container_donation_main{
