@@ -1,0 +1,177 @@
+/* colores */
+:root{
+    --verdeOscuro: rgb(95, 113, 97);
+    --verdeOscuro_1: rgb(40, 51, 42);
+    --verdeSuave: rgb(193, 209, 197);
+    --colorClaro: rgb(239, 234, 216);
+    --colorGris: rgb(208, 201, 192);
+}
+
+
+/* --------------------------------------------------------------------- */
+/* ESTILOS GENERALES DE LA PÁGINA */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+body{
+    background-image: url(https://misanimales.com/wp-content/uploads/2020/02/cachorros-jaula-refugio.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container_gral{
+    width: 80%;
+    margin: auto;
+}
+
+
+main{
+    padding-top:10px;
+    min-height:100vh;
+    background-color:rgba(193, 209, 197, 0.543);
+}
+/* --------------------------------------------------------------------- */
+
+
+/* ESTILOS DEL HEADER/NAV --INICIO---------------------------------------------*/
+#navigation{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: var(--verdeSuave);
+    margin: 0;
+}
+
+.nav-item_header{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--verdeOscuro);
+    font-size: 12px;
+    margin-right: 8px;
+  
+}
+
+#active{
+  color: var(--verdeOscuro_1);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.nav-item_header a{
+    color: var(--verdeOscuro);
+    transition: all 0.4s linear;
+
+}
+.nav-item_header a:hover{
+    color:var(--verdeOscuro_1);
+    text-shadow: 1px 1px currentColor;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:19px;
+}
+
+.nav-item_header a:hover::before{
+  content:'> ';
+}
+
+#btn_navBar{
+    border: 0.01px dotted var(--verdeOscuro);
+    border-radius: 90%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/22/22744.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    opacity: 0.70;
+}
+
+
+/* ESTILOS DEL HEADER/NAV ----FIN----------------------------------------------*/
+
+
+
+
+/* ---------------------------------------Breakpoints--------------------------------- */
+
+/* MODO TABLET +  */
+@media (min-width: 768px) {
+
+    /* estilos al navbar en mdo tablet */
+    #navigation{
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+    .nav-item_header{
+        font-size: 15px;
+        margin: 20px;
+    }   
+    nav ul {
+        margin-right: 50px;
+    }
+    nav div img{
+        width: 150px;
+        /* height: 150px; */
+    }
+}
+
+/* MODO PC ----------------------------- */
+@media (min-width: 992px) {
+    
+    #imagenContacto{
+        width: 400px;
+        height: 400px;
+    }
+    #textoContacto{
+        width: 1000px;
+        height: 600px;
+
+    }
+
+    /* Estilos al NavBar en mdo PC */
+    .nav-item_header{
+        font-size: 19px;
+    }
+
+
+ /*  ---INICIO------> ESTILOS DEL VIDEO */
+    #videoPerritos{
+        position: fixed;
+        z-index: -1;
+        width: 100vh;
+    }
+
+    @media (min-aspect-ratio: 16/9){
+        #videoPerritos{
+            width: 100%;
+            height: auto;
+        }
+    }   
+    @media (max-aspect-ratio: 16/9){
+            #videoPerritos{
+            width: auto;
+            height: 100%;
+        }
+    }
+/*   ---FIN------> ESTILOS DEL VIDEO */
+}
+
+
+/* MODO PC- pantalla grande >= 1400px */
+
+@media (min-width: 1400px) {
+
+    /* estilos al navbar en mdo pc grande */
+
+    .nav-item_header{
+        font-size: 24px;
+        margin: 25px;
+    }   
+    nav ul {
+        /* margin: 15px; */
+    }
+    nav div img{
+        width: 190px;
+        height: 170px;
+    }
+}
