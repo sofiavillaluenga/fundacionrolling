@@ -284,8 +284,8 @@
         padding-right:30px;
         height:400px;
     }
-    #control_carrousel a{
-        font-size: 1rem;
+    #control_carrousel {
+        display:none;
     }
     #container_carrousel{
         
