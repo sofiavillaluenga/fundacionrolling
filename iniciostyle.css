@@ -191,7 +191,7 @@
 .dona2:hover{
     width: 100px;
     height: 100px;
-    border-radius: 55px;
+    border-radius: 50px;
 }  
 @media(max-width: 1100px){
     #section_encabezado{
