@@ -1,0 +1,124 @@
+/* colores */
+:root{
+  --verdeOscuro: rgb(95, 113, 97);
+  --verdeOscuro_1: rgb(40, 51, 42);
+  --verdeSuave: rgb(193, 209, 197);
+  --colorClaro: rgb(239, 234, 216);
+  --colorGris: rgb(208, 201, 192);
+}
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+#tituloContacto {
+  padding: 20px;
+  text-align: center;
+  font-size: 19px;
+}
+
+#texto_informativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#texto_informativo p{
+  text-align: start;
+}
+
+.contenedorAcordion{
+  color: var(--verdeOcuro_1);
+}
+.contenedorAcordion ul{
+  list-style: none;
+  padding: 0;
+  margin:5px ;
+}
+.contenedorAcordion a{
+  text-decoration: none;
+  color: var(--verdeOcuro_1);
+}
+
+.contenedorAcordion svg{
+  width: 10px;
+  margin-right: 5px;
+}
+.contenedorAcordion a:hover{
+  color: var(--verdeOscuro_1);
+  font-size: 20px;
+}
+
+.btn_acordion{
+  background-color: var(--verdeSuave)!important;
+  color: var(--verdeOcuro_1);
+}
+
+.fondoAcordion{
+  background-color:rgba(193, 209, 197, 0.593);
+}
+
+
+.botonVerde{
+  background: var(--verdeSuave)!important;
+  padding:0.8rem;
+  border-radius:10px;
+  margin:15px;
+}
+
+.estilosTitulo b{
+  border-bottom: 2px solid var(--verdeOscuro) ;
+  box-shadow: 0.1px 1px 0px 0px var(--verdeOscuro);
+}
+
+.row form{
+
+  background-color:rgba(193, 209, 197, 0.543);
+  border: 3px dotted var(--verdeSuave);
+}
+
+form .btn_enviar{
+  background-color: var(--verdeSuave);
+  border: 1px dotted var(--verdeOscuro);
+  margin: 0 0 15px 0;
+}
+form .btn_enviar:hover{
+  background-color:rgba(193, 209, 197, 0.543);
+  border: 1px dotted var(--verdeOscuro);
+
+}
+
+
+/* PUNTOS DE RUPTURA------------------------------------------------- */
+
+/* -----MODO TABLET */
+@media (min-width: 768px) {
+  #texto_informativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color:rgba(166, 219, 179, 0.218);
+    border: 1px dotted var(--verdeOscuro);
+    padding: 30px;
+  }
+  #tituloContacto{
+    font-size: 22px;
+  }
+
+}
+
+/* MODO PC ----------------------------- */
+
+@media (min-width: 992px) {
+  #tituloContacto{
+    font-size: 22px;
+  }
+  #subtituloContacto{
+    font-size: 18px;
+  }
+}

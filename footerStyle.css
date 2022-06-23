@@ -1,0 +1,155 @@
+/* STYLE FOOTER---------------------------------------------------------- */
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: var(--verdeSuave);
+    color: var(--verdeOscuro);
+    padding-bottom: 5px;
+  }
+  
+  footer hr {
+    margin-top: 0px;
+  }
+  
+  #footer-final ul li {
+    list-style: none;
+    display: inline;
+  }
+  
+  /* footer-final */
+  #footer-final {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .redesTitulo {
+    position: relative;
+    font-size: 8px;
+    font-style: italic;
+  }
+  
+  .redesTitulo::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    right: calc(50% - 8px);
+    border-top: 8px solid var(--verdeOscuro);
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+  }
+  
+  #footer-final li i {
+    color: var(--verdeOscuro_1);
+  }
+  
+  #footer-final ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #footer-final ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+  }
+  #footer-final ul li:hover {
+    top: -5px;
+  }
+
+  /* parte final del footer */
+  .pie {
+    font-size: 8px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .pie a {
+    text-decoration: none;
+    color: var(--verdeOscuro_2);
+    border-bottom: 0.01px dotted var(--verdeOscuro);
+    padding: 2px;
+  }
+  .pie a:hover {
+    color: var(--verdeOscuro);
+  }
+  
+  /* -----------------footer-final en modo md+*/
+  .nav-css * {
+    transition: all 0.35s ease;
+  }
+  
+  .nav-css a {
+    padding: 0.5em 0.8em;
+    position: relative;
+  }
+  
+  .nav-css a::before,
+  .nav-css a::after {
+    content: "";
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    transition: all 0.35s ease;
+    opacity: 0;
+  }
+  .nav-css a::before {
+    content: "";
+    right: 0;
+    top: 0;
+    border-top: 1px dotted var(--verdeOscuro);
+    border-right: 1px dotted var(--verdeOscuro);
+    transform: translate(-100%, 50%);
+  }
+  
+  .nav-css a:after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px dotted var(--verdeOscuro);
+    border-left: 1px dotted var(--verdeOscuro);
+    transform: translate(100%, -50%);
+  }
+  
+  .nav-css a:hover:before,
+  .nav-css a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  .nav-css a b:hover {
+    color: var(--verdeOscuro_1);
+  }
+  
+  @media (min-width: 768px) {
+    /* DISEÑO DEL FOOTER -tablet- */
+    .redesTitulo b {
+      font-size: 10px;
+    }
+    .pie {
+      font-size: 10px;
+    }
+  
+    #footer-final a {
+      text-align: center;
+      background-color: var(--verdeSuave);
+      padding: 4px;
+      border-radius: 40%;
+      border: 1px solid rgba(183, 186, 184, 0.68);
+      display: block;
+    }
+    #footer-final ul li a:hover {
+      background-color: rgba(183, 186, 184, 0.68);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* DISEÑO DEL FOOTER -pc- */
+    .redesTitulo {
+      font-size: 15px;
+    }
+    .pie {
+      font-size: 14px;
+    }
+  }
+  
