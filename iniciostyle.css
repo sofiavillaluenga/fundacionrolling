@@ -188,11 +188,7 @@
     background-size: contain;
     transition: all 0.4s linear;
 }
-.dona2:hover{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-}  
+ 
 @media(max-width: 1100px){
     #section_encabezado{
         width: 420px;
