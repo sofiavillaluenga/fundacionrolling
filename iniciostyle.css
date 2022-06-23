@@ -291,6 +291,10 @@
     #control_carrousel{
         display:none;
     }
+    
+    #container_carrousel{
+        width:300px;
+    }
   
     #container_donation_main{
         padding-top: 2rem;
