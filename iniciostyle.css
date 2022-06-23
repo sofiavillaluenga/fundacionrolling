@@ -238,8 +238,6 @@
   .dona1:hover{
         background-color: rgba(239, 234, 216, 0.30);
         text-shadow:2px 2px rgba(0, 0, 0, 0.30);
-   
-    
 } 
 }
 
@@ -284,13 +282,8 @@
         padding-right:30px;
         height:400px;
     }
-    #control_carrousel a{
-        font-size: 1rem;
-    }
-    #container_carrousel{
-        
-        height: 260px;
-        width: 250px;
+    #control_carrousel{
+        display:none;
     }
   
     #container_donation_main{
