@@ -282,8 +282,13 @@
         padding-right:30px;
         height:400px;
     }
-    #control_carrousel{
-        display:none;
+    #control_carrousel a{
+        font-size: 1rem;
+    }
+    #container_carrousel{
+        
+        height: 260px;
+        width: 250px;
     }
   
     #container_donation_main{
@@ -306,4 +311,3 @@
     font-size:20px; 
     }
 }
-/*END| INICIO */
