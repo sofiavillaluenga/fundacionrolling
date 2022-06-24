@@ -244,6 +244,9 @@
 }
 
 @media(max-width:700px){
+    body{
+        height:100vh;
+    }
   
     #section_encabezado{
         border-radius: none;
