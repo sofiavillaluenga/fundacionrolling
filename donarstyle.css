@@ -144,8 +144,8 @@
 
     /* aumento el tamaño de los montos */
     .valor{
-        height:60px;
-        widht:60px;
+        height:100px;
+        widht:100px;
     .valor a{
         padding: 20px;
         font-size: 20px;
