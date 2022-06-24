@@ -244,8 +244,8 @@
 }
 
 @media(max-width:700px){
-    body{
-        height:100vh !important;
+    main{
+        height:600px;
     }
   
     #section_encabezado{
