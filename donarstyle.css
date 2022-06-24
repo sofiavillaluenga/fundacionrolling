@@ -143,6 +143,9 @@
 @media (min-width: 992px) {
 
     /* aumento el tamaño de los montos */
+    .montos{
+        padding:50px;
+        font-size:50px;
     .valor a{
         padding: 12px;
         font-size: 20px;
