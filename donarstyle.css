@@ -146,6 +146,7 @@
     .valor{
         height:120px;
         widht:120px;
+        padding:10px;
     .valor a{
         text-align:center;
         margin:0 auto;
