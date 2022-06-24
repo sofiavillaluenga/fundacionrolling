@@ -146,12 +146,12 @@
     .valor{
         
         
-        padding:50px;
+        padding:40px;
         
     .valor a{
         text-align:center;
         margin:0 auto;
         padding: 10px;
-        font-size: 20px;
+        font-size: 40px;
     }  
 }
